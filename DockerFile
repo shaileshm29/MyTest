@@ -1,0 +1,4 @@
+From openJDK:17
+EXPOSE 8080
+ADD target/MyTest-1.0-SNAPSHOT.jar MyTest-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","MyTest-1.0-SNAPSHOT.jar"]
